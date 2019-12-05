@@ -4,7 +4,7 @@ function validate(){
 	var senha = document.getElementById('senha1').value
 	var senha2 = document.getElementById('senha2').value
 
-	if (nome == ""){
+	if (nome == "" || nome.replace(" ","") == ""){
 		alert('Preencha o campo nome!');
 	}
 
